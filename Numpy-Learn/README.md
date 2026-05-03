@@ -52,6 +52,4 @@ jupyter lab
 # or: jupyter notebook
 ```
 
-## Notes
 
-- Jupyter checkpoint folders (`.ipynb_checkpoints/`) and virtual environments (`.venv/`) should not be committed.
