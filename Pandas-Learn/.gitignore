@@ -1,0 +1,83 @@
+# ---------------------------------------------------------------------------
+# Python / Jupyter / Data Science .gitignore
+# Repository: Machine Learning Journey
+# Goal: keep notebooks + curated datasets tracked, ignore generated files.
+# ---------------------------------------------------------------------------
+
+# === Python bytecode / caches ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# === Virtual environments ===
+.venv/
+venv/
+env/
+ENV/
+
+# pip / build artifacts
+pip-wheel-metadata/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# === Testing / linting / typing caches ===
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.pytype/
+.ruff_cache/
+
+# === Jupyter / IPython ===
+.ipynb_checkpoints/
+.ipython/
+profile_default/
+
+# Notebook export noise (leave commented unless you generate these)
+# *.nbconvert.ipynb
+
+# === Common ML / experiment tracking outputs ===
+wandb/
+mlruns/
+lightning_logs/
+runs/
+tb_logs/
+
+# If you create these folders for models/artifacts, keep them out of git
+models/
+checkpoints/
+artifacts/
+outputs/
+logs/
+
+# === Data folders (optional; keep datasets elsewhere if you want them tracked) ===
+data/
+
+# SQLite / local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# === OS / editor / temp files ===
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+*.swp
+*.swo
+*~
+
+.vscode/
+.idea/
+
+# === Books / large reference material (avoid committing copyrighted files) ===
+Books Collection/
+*.pdf
+*.epub
+*.mobi
