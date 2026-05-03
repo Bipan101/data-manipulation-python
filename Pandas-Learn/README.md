@@ -57,6 +57,3 @@ jupyter lab
 # or: jupyter notebook
 ```
 
-## Notes
-
-- This folder currently contains a local `.venv/` and `.ipynb_checkpoints/`. Keep both out of git.
