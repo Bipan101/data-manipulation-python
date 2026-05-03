@@ -2,6 +2,8 @@
 
 This folder contains practice notebooks for learning **NumPy** for numerical computing and array-based data manipulation.
 
+If you are viewing this inside the full repo, start from the repo root README for cloning instructions.
+
 ## Contents
 
 Notebook sequence:

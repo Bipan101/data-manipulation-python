@@ -2,6 +2,8 @@
 
 This folder contains practice notebooks for learning **Pandas** for working with tabular data using `Series` and `DataFrame` workflows.
 
+If you are viewing this inside the full repo, start from the repo root README for cloning instructions.
+
 ## Contents
 
 Notebook sequence:
